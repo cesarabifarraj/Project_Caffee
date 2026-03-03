@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,4000,0,0" />
+</head>
+<body>
+    <header>
+    <nav class="navbar section-content">
+        <a href="index.html" class="menu_logo">
+            <h2 class="logo_text">☕Caffée.</h2>
+        </a>
+        <ul class="nav_menu">
+            <button class="material-icons" id="close_btn">close</button>
+            <li class="nav_items"><a class="item_links" href="index.html">Home</a></li>
+            <li class="nav_items"><a class="item_links" href="#menu_section">Menu</a></li>
+            <li class="nav_items"><a class="item_links" href="#testimonials_section">Testimonials</a></li>
+            <li class="nav_items"><a class="item_links" href="#gallery_section">Gallery</a></li>
+            <li class="nav_items"><a class="item_links" href="#about_section">About</a></li>
+        </ul>
+        <button class="material-icons" id="menu_btn">menu</button>
+    </nav>
+</header>
+
+<main>
+    <section class="hero_section">
+        <div class="section_content">
+            <div class="hero_details">
+                <h2 class="title">Best Caffée</h2>
+                <h3 class="subtitle">make your day special with our coffee!</h3>
+                <p class="description">Welcome to our coffee paradise, where u can find the best coffee quality.</p>
+                
+                <div class="buttons">
+                    <button class="orderBtn" >Order now</button>
+                    <button class="contactBtn" onclick="location.href='#contact_section'">Contact us</button>
+                </div>
+            </div>
+            <div class="hero_img_wrapper">
+                <img src="hero.png" alt="hero" class="hero_img">
+            </div>
+        </div>
+    </section>
+    <section class="about_section" id="about_section">
+        <div class="about_content">
+            <div class="about_details">
+                <h2 class="title">ABOUT US</h2>
+                <p class="description">At <span class="highlight">Caffée</span>, "we believe that a great cup of coffee is more than just a morning routine—it’s an art form. From the high-altitude farms of Ethiopia to your favorite mug, every bean we roast is handled with precision and care. We partner directly with sustainable growers to ensure every sip is ethically sourced and bursting with unique, complex flavors. Whether you're a fan of a bright pour-over or a silky, hand-poured latte, we’re here to elevate your coffee experience, one bean at a time."</p>
+                <div class="social_link_list">
+                <a href="https://instagram.com" class="social_link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com" class="social_link"><i class="fa-brands fa-facebook"> </i></a>
+                <a href="https://x.com" class="social_link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu_section" id="menu_section">
+                <h2 class="title">MENU</h2>
+                <br><br>
+                <div class="section_content">
+                    <ul class="menu_list">
+                        <li type="none" class="menu_item">
+                            <img class="menu_img" src="hot_coffee.png" alt="hot coffee">
+                            <div class="menu_details">
+                                <h3>Hot beverages</h3>
+                                <p>Wide range of steaming hot coffee to make you fresh and light</p>
+                        </div>
+                            
+                        </li>
+                        <li type="none" class="menu_item">
+                            <img class="menu_img" src="cold-coffee.png" alt="cold coffee">
+                            <div class="menu_details">
+                                <h3>Cold beverages</h3>
+                                <p>Wide range of cold coffee to make you fresh and light</p>
+                        </div>
+                        </li>
+                        <li type="none" class="menu_item">
+                            <img class="menu_img" src="Smoothie.png" alt="cold coffee">
+                            <div class="menu_details">
+                                <h3>Smoothies</h3>
+                                <p>Wide range of cold fresh smoothies to make you fresh and light</p>
+                        </div>
+                        </li>
+                        <li type="none" class="menu_item">
+                            <img class="menu_img" src="icecream.png" alt="hot coffee">
+                            <div class="menu_details">
+                                <h3>Ice-cream</h3>
+                                <p>Wide range of cold ice cream to make you fresh and light</p>
+                        </div>
+                        </li>
+                        <li type="none" class="menu_item">
+                            <img class="menu_img" src="cake.png" alt="Cake">
+                           <div class="menu_details">
+                                <h3>Cake</h3>
+                                <p>Wide range of cakes to make you fresh and happy</p>
+                        </div>
+                        </li>
+                        <li type="none" class="menu_item">
+                            <img class="menu_img" src="cheesecake.png" alt="Cheese-cake">
+                            <div class="menu_details">
+                                <h3>Cheese-cake</h3>
+                                <p>Wide range of cheese cake to make you fresh and happy</p>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+    </section>
+
+    <section class="testimonials_section" id="testimonials_section">
+        <h2 class="title">
+            Testimonials
+        </h2>
+        <div class="section_content">
+            <div class="slider_container swiper">
+                <div class="slider_wrapper ">
+                    <ul class="testimonials_list swiper-wrapper">
+                        <li class="testimonial swiper-slide ">
+                            <img src="user5.jpg" alt="user" class="testimonial_img">
+                            <h3 class="name">Najib</h3>
+                            <p class="feedback">"Loved the chocolate cake , perfectly balanced and rich. Will order again!"</p>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user1.jpg" alt="user" class="testimonial_img">
+                            <h3 class="name">Naziha</h3>
+                            <p class="feedback">"Loved the chocolate cake , perfectly balanced and rich. Will order again!"</p>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user2.jpg" alt="user" class="testimonial_img">
+                            <h3 class="name">Khadija</h3>
+                            <p class="feedback">"Loved the coffee cake , perfectly balanced and rich. Will order again!"</p>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user3.jpg" alt="user" class="testimonial_img">
+                            <h3 class="name">Tony</h3>
+                            <p class="feedback">"Loved the blue berry cheese cake , perfectly balanced and rich. Will order again!"</p>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user4.jpg" alt="user" class="testimonial_img">
+                            <h3 class="name">Nada</h3>
+                            <p class="feedback">"Loved the strawberry cake , perfectly balanced and rich. Will order again!"</p>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section class="gallery_section"  id="gallery_section">
+        <h2 class="title">Gallery</h2>
+        
+        
+        <div class="section_content">
+            <ul class="gallery_list">
+                <li class="gallery_details"><img src="gallery1.jpg" alt="gallery" class="gallery_img"></li>
+                <li class="gallery_details"><img src="gallery2.png" alt="gallery" class="gallery_img"></li>
+                <li class="gallery_details"><img src="gallery3.jpg" alt="gallery" class="gallery_img"></li>
+                <li class="gallery_details"><img src="gallery4.png" alt="gallery" class="gallery_img"></li>
+                <li class="gallery_details"><img src="gallery5.jpg" alt="gallery" class="gallery_img"></li>
+                <li class="gallery_details"><img src="gallery6.jpg" alt="gallery" class="gallery_img"></li>
+            </ul>
+        </div>
+       
+    </section>
+
+   <section class="contact_section" id="contact_section">
+    <h2 class="title">Contact us</h2>
+    <div class="section_content">
+        <ul class="contact_list">
+            <li type="none" class="contact_item"><i class="fa-regular fa-envelope"></i>
+                <p>Caffée1@gmail.com</p>
+            </li>
+            <li type="none" class="contact_item"><i class="fa-solid  fa-phone"></i>
+                <p>(961) 05 165 670</p>
+            </li>
+            <li type="none" class="contact_item"><i class="fa-solid  fa-globe"></i>
+                <p>Caffée.com</p>
+            </li>
+            <li type="none" class="contact_item"><i class="fa-solid  fa-location-crosshairs"></i>
+                <p>Beirut-24-street-dawra </p>
+            </li>
+        </ul>
+
+        <form action="#" class="contact_form">
+            <input type="text" class="input_item" placeholder="Your name" required>
+            <input type="text" class="input_item" placeholder="Your email" required>
+            <textarea class="input_item" placeholder="Your message" required></textarea>
+            <button class="submit_btn">
+                Submit
+            </button>
+        </form>
+    </div>
+   </section>
+
+   <footer class="footer_section">
+    <div class="section_content">
+        <p>© 2024 Coffee Shop</p>
+    <div class="social_link_list">
+               
+                <a href="https://instagram.com" class="social_link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com" class="social_link"><i class="fa-brands fa-facebook"> </i></a>
+                <a href="https://x.com" class="social_link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <div class="policy_footer">
+                <a class="policy" href="#">Privacy policy </a>
+                <span class="policy_seperator">•</span>
+                <a href="#" class="policy">Refund policy</a>
+                </div>
+                
+    </div>
+    
+   </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+
+<script src="index.js"></script>
+</body>
+</html>
